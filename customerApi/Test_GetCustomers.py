@@ -16,7 +16,7 @@ class ApiTests(unittest.TestCase):
             'id': 2,
         'first_name': "Janet",
         'last_name': "Weaver",
-        'avatar': "https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"
+        'contact': "1234567890"
         }]
       # Configure the mock to return a response with an OK status code.
         mock_get.return_value = Mock(ok=True)
